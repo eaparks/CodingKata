@@ -28,18 +28,11 @@ public class AccountNumberProcessorTest {
 
         String[] lines = new String[4];
         lines[0] = "    _  _     _  _  _  _  _ ";
-        lines[1] = " |  _| _||_||_ |_   ||_||_|";
-        lines[2] = " | |_  _|  | _||_|  ||_| _|";
+        lines[1] = "  | _| _||_||_ |_   ||_||_|";
+        lines[2] = "  ||_  _|  | _||_|  ||_| _|";
         lines[3] = "";
         assertEquals("123456789", unit.processFourLines(lines).toString());
-
-//        lines[0] = "    _  _     _  _  _  _  _ ";
-//        lines[1] = " |  _| _||_||_ |_   ||_||_|";
-//        lines[2] = " | |_  _|  | _||_|  ||_| _|";
-//        lines[3] = "   ";
-//        assertEquals("123456789", unit.processFourLines(lines).toString());
-
-
+        
         String[] badLines = new String[3];
         try {
             unit.processFourLines(badLines);

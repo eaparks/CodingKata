@@ -15,8 +15,8 @@ import java.util.Set;
 public enum PipeUnderscoreNumber {
 
     ONE(    "   " +
-            " | " +
-            " | ", "1", new String[]{"SEVEN"}),
+            "  |" +
+            "  |", "1", new String[]{"SEVEN"}),
     TWO(    " _ " +
             " _|" +
             "|_ ", "2", null),
@@ -78,34 +78,54 @@ public enum PipeUnderscoreNumber {
     public static Set<PipeUnderscoreNumber> findNumbersFromIllegible(String funkyInput) {
         
         Set<PipeUnderscoreNumber> result = new HashSet<>();
+        if(!fromOcrString(funkyInput).equals(ILLEGIBLE)) {
+            return result;
+        }
         String potentialFix;
         
-        // look by adding single dash in all possible places
+        // look by adding single dash in all legit places if pipe not there
                 // underscore can only be in position 1,4,7
         for(int i = 1; i < 10; i = i + 3) {
-            potentialFix = funkyInput.substring(0, i) + "_" + funkyInput.substring(i + 1);
-            if(!fromOcrString(potentialFix).equals(ILLEGIBLE)) {
-                result.add(fromOcrString(potentialFix));
+            if (funkyInput.charAt(i) != '|') {
+                potentialFix = funkyInput.substring(0, i) + "_" + funkyInput.substring(i + 1);
+                if (!fromOcrString(potentialFix).equals(ILLEGIBLE)) {
+                    result.add(fromOcrString(potentialFix));
+                }
             }
         }
-//        potentialFix = funkyInput.substring(0, 1) + "_" + funkyInput.substring(2);
-//        if(!fromOcrString(potentialFix).equals(ILLEGIBLE)) {
-//            result.add(fromOcrString(potentialFix));
-//        }
-//        potentialFix = funkyInput.substring(0, 4) + "_" + funkyInput.substring(5);
-//        if(!fromOcrString(potentialFix).equals(ILLEGIBLE)) {
-//            result.add(fromOcrString(potentialFix));
-//        }
-//        potentialFix = funkyInput.substring(0, 7) + "_" + funkyInput.substring(8);
-//        if(!fromOcrString(potentialFix).equals(ILLEGIBLE)) {
-//            result.add(fromOcrString(potentialFix));
-//        }
         
-        // look by removing a single dash
+        // look by removing a single underscore
+            // substitute space for underscore and test
+        for(int i = 0; i < funkyInput.length(); i++) {
+            if (funkyInput.charAt(i) == '_') {
+                potentialFix = funkyInput.substring(0, i) + " " + funkyInput.substring(i + 1);
+                if(!fromOcrString(potentialFix).equals(ILLEGIBLE)) {
+                    result.add(fromOcrString(potentialFix));
+                }
+            }
+        }
         
-        // look by adding a single pipe in all possible places
+        // look by adding a single pipe in all possible places, but not replacing underscore
+            // never a pipe in first 3 chars
+        for(int i = 3; i < funkyInput.length(); i++) {
+            if (funkyInput.charAt(i) != '_') {
+                potentialFix = funkyInput.substring(0, i) + "|" + funkyInput.substring(i + 1);
+                if (!fromOcrString(potentialFix).equals(ILLEGIBLE)) {
+                    result.add(fromOcrString(potentialFix));
+                }
+            }
+        }
         
         // look by removing a single pipe
+            // substitute space for pipe and test
+        for(int i = 0; i < funkyInput.length(); i++) {
+            if (funkyInput.charAt(i) == '|') {
+                potentialFix = funkyInput.substring(0, i) + " " + funkyInput.substring(i + 1);
+                if(!fromOcrString(potentialFix).equals(ILLEGIBLE)) {
+                    result.add(fromOcrString(potentialFix));
+                }
+            }
+        }
         
         
         return result;
