@@ -8,6 +8,7 @@ import java.util.Set;
 import static junit.framework.TestCase.assertNotNull;
 import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
 
 /**
  * Created with IntelliJ IDEA.
@@ -80,12 +81,10 @@ public class PipeUnderscoreNumberTest {
     @Test
     public void testFindNumbersFromIllegible() throws Exception {
 
-//        String inputForNullResult =  "   " +
-//                                     " | " +
-//                                     " | ";
-//
-//
-//        assertNull(PipeUnderscoreNumber.findNumbersFromIllegible(inputForNullResult));
+        String inputForNullResult =  "   " +
+                                     " | " +
+                                     " | ";
+        assertNull(PipeUnderscoreNumber.findNumbersFromIllegible(inputForNullResult));
 
         String expected =   " _ " +
                             "|_|" +

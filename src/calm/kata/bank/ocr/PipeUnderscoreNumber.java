@@ -82,18 +82,24 @@ public enum PipeUnderscoreNumber {
         
         // look by adding single dash in all possible places
                 // underscore can only be in position 1,4,7
-        potentialFix = funkyInput.substring(0, 1) + "_" + funkyInput.substring(2);
-        if(!fromOcrString(potentialFix).equals(ILLEGIBLE)) {
-            result.add(fromOcrString(potentialFix));
+        for(int i = 1; i < 10; i = i + 3) {
+            potentialFix = funkyInput.substring(0, i) + "_" + funkyInput.substring(i + 1);
+            if(!fromOcrString(potentialFix).equals(ILLEGIBLE)) {
+                result.add(fromOcrString(potentialFix));
+            }
         }
-        potentialFix = funkyInput.substring(0, 4) + "_" + funkyInput.substring(5);
-        if(!fromOcrString(potentialFix).equals(ILLEGIBLE)) {
-            result.add(fromOcrString(potentialFix));
-        }
-        potentialFix = funkyInput.substring(0, 7) + "_" + funkyInput.substring(8);
-        if(!fromOcrString(potentialFix).equals(ILLEGIBLE)) {
-            result.add(fromOcrString(potentialFix));
-        }
+//        potentialFix = funkyInput.substring(0, 1) + "_" + funkyInput.substring(2);
+//        if(!fromOcrString(potentialFix).equals(ILLEGIBLE)) {
+//            result.add(fromOcrString(potentialFix));
+//        }
+//        potentialFix = funkyInput.substring(0, 4) + "_" + funkyInput.substring(5);
+//        if(!fromOcrString(potentialFix).equals(ILLEGIBLE)) {
+//            result.add(fromOcrString(potentialFix));
+//        }
+//        potentialFix = funkyInput.substring(0, 7) + "_" + funkyInput.substring(8);
+//        if(!fromOcrString(potentialFix).equals(ILLEGIBLE)) {
+//            result.add(fromOcrString(potentialFix));
+//        }
         
         // look by removing a single dash
         
