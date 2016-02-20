@@ -97,6 +97,8 @@ public class AccountNumberTest {
         assertTrue(unit.isValid());
     }
     
+    // Yo EDWARD - this is a test to see how merging works with Git.
+    
     @Test
     public void testFindAlternate() throws Exception {
         
