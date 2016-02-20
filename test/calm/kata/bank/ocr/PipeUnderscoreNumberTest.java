@@ -1,7 +1,12 @@
 package calm.kata.bank.ocr;
 
+import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.Set;
+
+import static junit.framework.TestCase.assertNotNull;
+import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -70,5 +75,31 @@ public class PipeUnderscoreNumberTest {
     public void testToString() throws Exception {
 
         assertEquals("8", PipeUnderscoreNumber.EIGHT.toString());
+    }
+    
+    @Test
+    public void testFindNumbersFromIllegible() throws Exception {
+
+//        String inputForNullResult =  "   " +
+//                                     " | " +
+//                                     " | ";
+//
+//
+//        assertNull(PipeUnderscoreNumber.findNumbersFromIllegible(inputForNullResult));
+
+        String expected =   " _ " +
+                            "|_|" +
+                            "|_|";
+        Assert.assertNotNull(PipeUnderscoreNumber.fromOcrString(expected));
+
+        String badInput =   " _ " +
+                            "|_|" +
+                            "| |";
+
+        Set<PipeUnderscoreNumber> resultSet = PipeUnderscoreNumber.findNumbersFromIllegible(badInput);
+        assertNotNull(resultSet);
+
+        assertTrue(resultSet.size() == 1);
+        assertTrue(resultSet.contains(PipeUnderscoreNumber.EIGHT));
     }
 }

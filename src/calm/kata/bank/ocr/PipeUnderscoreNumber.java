@@ -1,5 +1,8 @@
 package calm.kata.bank.ocr;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * Created with IntelliJ IDEA.
  * User: edward
@@ -71,6 +74,36 @@ public enum PipeUnderscoreNumber {
         
         return getAlternates() != null;
     }
+    
+    public static Set<PipeUnderscoreNumber> findNumbersFromIllegible(String funkyInput) {
+        
+        Set<PipeUnderscoreNumber> result = new HashSet<>();
+        String potentialFix;
+        
+        // look by adding single dash in all possible places
+                // underscore can only be in position 1,4,7
+        potentialFix = funkyInput.substring(0, 1) + "_" + funkyInput.substring(2);
+        if(!fromOcrString(potentialFix).equals(ILLEGIBLE)) {
+            result.add(fromOcrString(potentialFix));
+        }
+        potentialFix = funkyInput.substring(0, 4) + "_" + funkyInput.substring(5);
+        if(!fromOcrString(potentialFix).equals(ILLEGIBLE)) {
+            result.add(fromOcrString(potentialFix));
+        }
+        potentialFix = funkyInput.substring(0, 7) + "_" + funkyInput.substring(8);
+        if(!fromOcrString(potentialFix).equals(ILLEGIBLE)) {
+            result.add(fromOcrString(potentialFix));
+        }
+        
+        // look by removing a single dash
+        
+        // look by adding a single pipe in all possible places
+        
+        // look by removing a single pipe
+        
+        
+        return result;
+    }
 
     @Override
     public String toString() {
@@ -79,9 +112,7 @@ public enum PipeUnderscoreNumber {
 
     public static PipeUnderscoreNumber fromString(String name) {
 
-        PipeUnderscoreNumber result = EnumUtil.getEnumFromString(PipeUnderscoreNumber.class, name);
-        
-        return result;
+        return EnumUtil.getEnumFromString(PipeUnderscoreNumber.class, name);
     }
 
     public static PipeUnderscoreNumber fromOcrString(String text) {
