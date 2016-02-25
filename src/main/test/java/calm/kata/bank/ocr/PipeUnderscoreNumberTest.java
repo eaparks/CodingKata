@@ -2,6 +2,7 @@ package calm.kata.bank.ocr;
 
 import org.junit.Test;
 
+import java.util.HashSet;
 import java.util.Set;
 
 import static junit.framework.TestCase.assertTrue;
@@ -183,5 +184,14 @@ public class PipeUnderscoreNumberTest {
         assertEquals(1, resultSet.size());
         assertEquals(resultSet.iterator().next(), PipeUnderscoreNumber.ZERO);
 
+    }
+    
+    @Test
+    public void testGetAlternatesAsEnums() {
+        
+        Set<PipeUnderscoreNumber> alts = new HashSet<>();
+        alts = PipeUnderscoreNumber.ONE.getAlternatesAsEnums();
+        assertTrue(alts.size() == 1);
+        assertEquals(PipeUnderscoreNumber.SEVEN, alts.iterator().next());
     }
 }

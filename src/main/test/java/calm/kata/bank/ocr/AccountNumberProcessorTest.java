@@ -31,7 +31,7 @@ public class AccountNumberProcessorTest {
         lines[1] = "  | _| _||_||_ |_   ||_||_|";
         lines[2] = "  ||_  _|  | _||_|  ||_| _|";
         lines[3] = "";
-        assertEquals("123456789", unit.processFourLines(lines).toString());
+        assertEquals("123456789", unit.processFourLines(lines));
         
         String[] badLines = new String[3];
         try {
@@ -46,7 +46,7 @@ public class AccountNumberProcessorTest {
     public void testReadOnesFile() throws Exception {
 
         AccountNumberProcessor main = new AccountNumberProcessor();
-        List<AccountNumber> accountNumberList = main.readFile("data/ones.txt");
+        List<String> accountNumberList = main.readFile("data/ones.txt");
 
         assertNotNull(accountNumberList);
         assertEquals(1, accountNumberList.size());
@@ -57,7 +57,7 @@ public class AccountNumberProcessorTest {
     public void testReadFile() throws Exception {
 
         AccountNumberProcessor main = new AccountNumberProcessor();
-        List<AccountNumber> accountNumberList = main.readFile("data/input.txt");
+        List<String> accountNumberList = main.readFile("data/input.txt");
 
         assertNotNull(accountNumberList);
         System.out.println(accountNumberList);
@@ -67,7 +67,7 @@ public class AccountNumberProcessorTest {
     public void testReadFileWithMalformedNumber() throws Exception {
 
         AccountNumberProcessor main = new AccountNumberProcessor();
-        List<AccountNumber> accountNumberList = main.readFile("data/malformed_1.txt");
+        List<String> accountNumberList = main.readFile("data/malformed_1.txt");
 
         assertNotNull(accountNumberList);
         assertEquals(1, accountNumberList.size());

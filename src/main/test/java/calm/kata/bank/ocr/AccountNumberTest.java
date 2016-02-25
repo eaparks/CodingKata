@@ -3,6 +3,9 @@ package calm.kata.bank.ocr;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+
 import static org.junit.Assert.*;
 
 /**
@@ -95,9 +98,11 @@ public class AccountNumberTest {
         num = 777777177;
         unit = new AccountNumber(num);
         assertTrue(unit.isValid());
+
+        num = 123456789;
+        unit = new AccountNumber(num);
+        assertTrue(unit.isValid());
     }
-    
-    // Yo EDWARD - this is a test to see how merging works with Git.
     
     @Test
     public void testFindAlternate() throws Exception {
@@ -246,5 +251,33 @@ public class AccountNumberTest {
 
          */
         
+    }
+    
+    @Test
+    public void testProcessSingleOcrNumberWithOneNum() {
+        
+        String nine = PipeUnderscoreNumber.NINE.getOcrString();
+        
+        ArrayList<HashSet<PipeUnderscoreNumber>> potentialAccountNumbers = unit.getPotentialAccountNumbers();
+        assertEquals(9, potentialAccountNumbers.size());
+        
+        unit.processSingleOcrNumber(nine);
+        potentialAccountNumbers = unit.getPotentialAccountNumbers();
+        assertEquals(PipeUnderscoreNumber.NINE.getAlternates().length + 1, potentialAccountNumbers.get(0).size());
+    }
+
+    @Test
+    public void testProcessSingleOcrNumberWithTwoNum() {
+
+        String nine = PipeUnderscoreNumber.NINE.getOcrString();
+        String eight = PipeUnderscoreNumber.EIGHT.getOcrString();
+
+
+        unit.processSingleOcrNumber(nine);
+        unit.processSingleOcrNumber(eight);
+        ArrayList<HashSet<PipeUnderscoreNumber>> potentialAccountNumbers = unit.getPotentialAccountNumbers();
+        assertEquals(PipeUnderscoreNumber.NINE.getAlternates().length + 1 +
+                     PipeUnderscoreNumber.EIGHT.getAlternates().length + 1, potentialAccountNumbers.get(0).size() +
+                        potentialAccountNumbers.get(1).size());
     }
 }

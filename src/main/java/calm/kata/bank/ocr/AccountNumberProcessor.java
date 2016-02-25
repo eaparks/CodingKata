@@ -30,11 +30,11 @@ public class AccountNumberProcessor {
     private static final Logger logger = LogManager.getLogger(AccountNumberProcessor.class);
     public static final String EMPTY_NUMBER_TOP = "   ";
 
-    protected List<AccountNumber> readFile(String file) throws IOException, IllegalInputException {
+    protected List<String> readFile(String file) throws IOException, IllegalInputException {
 
         BufferedReader reader = new BufferedReader(new FileReader(file));
         String[] fourLines = new String[4];
-        List<AccountNumber> accountNumberList = new ArrayList<>();
+        List<String> accountNumberList = new ArrayList<>();
 
         try {
             int i = 0;
@@ -60,31 +60,33 @@ public class AccountNumberProcessor {
         return new String(encoded, encoding);
     }
 
-    protected AccountNumber processFourLines(String[] lines) throws IllegalInputException {
+    protected String processFourLines(String[] lines) throws IllegalInputException {
 
         if(lines.length != 4) {
             throw new IllegalInputException("Input must be 4 lines.");
         }
+        AccountNumber accountNumber = new AccountNumber();
 
+        // First line
         StringBuilder[] ocrNumberFromFile = handleFirstLine(lines[0]);
         String line;
         int i;
 
-        // Line 1:
+        // Second line
         line = lines[1];
         for (i = 0; i < 9; i++) {
             ocrNumberFromFile[i].append(line.substring(i * 3, (i + 1) * 3));
         }
 
-        AccountNumber accountNumber = new AccountNumber();
+        // Third line
         line = lines[2];
         for (i = 0; i < 9; i++) {
             ocrNumberFromFile[i].append(line.substring(i * 3, (i + 1) * 3));
             String completeOcrNum = ocrNumberFromFile[i].toString();
-            accountNumber.appendDigit(PipeUnderscoreNumber.fromOcrString(completeOcrNum));
+            accountNumber.processSingleOcrNumber(completeOcrNum);
         }
 
-        return accountNumber;
+        return accountNumber.processAlternates();
     }
 
     private StringBuilder[] handleFirstLine(String line1) {
@@ -101,20 +103,21 @@ public class AccountNumberProcessor {
         return ocrNumberFromFile;
     }
 
-    private void writeResults(List<AccountNumber> accountNumbers) throws IOException {
+    // TODO - change input param to String list
+    private void writeResults(List<String> accountNumbers) throws IOException {
 
         List<String> lines = new ArrayList<>(accountNumbers.size());
         
         PrintWriter writer = new PrintWriter("output.txt", "UTF-8");
-        String numStatus = "";
-        for (AccountNumber num : accountNumbers)
+        for (String num : accountNumbers)
         {
-            if(num.isIllegible()) {
-                numStatus = " ILL";
-            } else if(!num.isValid()) {
-                numStatus = " ERR";
-            }
-            writer.println(num + numStatus);
+            // TODO - in AccountNumber
+//            if(num.isIllegible()) {
+//                numStatus = " ILL";
+//            } else if(!num.isValid()) {
+//                numStatus = " ERR";
+//            }
+            writer.println(num);
         }
         writer.close();
         Files.write(Paths.get("file5.txt"), lines, UTF_8);
@@ -125,7 +128,7 @@ public class AccountNumberProcessor {
 
         AccountNumberProcessor processor = new AccountNumberProcessor();
         try {
-            List<AccountNumber> accountNumbers = processor.readFile("data/input.txt");
+            List<String> accountNumbers = processor.readFile("data/input.txt");
             processor.writeResults(accountNumbers);
         } catch (IOException e) {
             e.printStackTrace();

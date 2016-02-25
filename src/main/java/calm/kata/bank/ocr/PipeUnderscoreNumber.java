@@ -127,7 +127,6 @@ public enum PipeUnderscoreNumber {
             }
         }
         
-        
         return result;
     }
 
@@ -163,4 +162,14 @@ public enum PipeUnderscoreNumber {
         return ILLEGIBLE;
     }
 
+    public Set<PipeUnderscoreNumber> getAlternatesAsEnums() {
+
+        Set<PipeUnderscoreNumber> alts = new HashSet<>();
+        if (alternates != null) {
+            for(String alt : alternates) {
+                alts.add(fromString(alt));
+            }
+        }
+        return alts;
+    }
 }
