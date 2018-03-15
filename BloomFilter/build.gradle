@@ -1,4 +1,5 @@
-apply plugin: 'java-library'
+apply plugin: "groovy"
+apply plugin: "java-library"
 
 repositories {
     // Use jcenter for resolving your dependencies.
@@ -7,6 +8,8 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'junit:junit:4.12'
-}
+    // mandatory dependencies for using Spock
+    compile "org.codehaus.groovy:groovy-all:2.4.13"
+    testCompile "org.spockframework:spock-core:1.1-groovy-2.4"
 
+}
