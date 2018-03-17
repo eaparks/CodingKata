@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)http://codekata.com/kata/kata05-bloom-filters/ -->
+<html class="js video maskImage placeholder" lang="en"><!--<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Kata05: Bloom Filters - CodeKata</title>
+    <meta name="author" content="Dave Thomas (@PragDave)">
+
+
+    <meta name="description" content="There are many circumstances where we need to find out if something is
+a member of a set, and many algorithms for doing it. If the set is
+small, you …">
+
+
+    <!-- http://t.co/dKP3o1e -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+
+
+    <link rel="canonical" href="http://codekata.com/kata/kata05-bloom-filters">
+    <link href="http://codekata.com/favicon.png" rel="icon">
+    <link href="Kata05_%20Bloom%20Filters-CodeKata_files/screen.css" media="screen, projection" rel="stylesheet"
+          type="text/css">
+    <link href="http://codekata.com/atom.xml" rel="alternate" title="CodeKata" type="application/atom+xml">
+    <script src="Kata05_%20Bloom%20Filters-CodeKata_files/cb=gapi.loaded_1" async=""></script>
+    <script src="Kata05_%20Bloom%20Filters-CodeKata_files/cb=gapi(1).loaded_0" async=""></script>
+    <script type="text/javascript" async="" src="Kata05_%20Bloom%20Filters-CodeKata_files/plusone.js"
+            gapi_processed="true"></script>
+    <script type="text/javascript" async="" src="Kata05_%20Bloom%20Filters-CodeKata_files/ga.js"></script>
+    <script src="Kata05_%20Bloom%20Filters-CodeKata_files/modernizr-2.0.js"></script>
+    <script src="Kata05_%20Bloom%20Filters-CodeKata_files/jquery.min.js"></script>
+    <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+    <script src="Kata05_%20Bloom%20Filters-CodeKata_files/octopress.js" type="text/javascript"></script>
+    <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+
+    <link href="Kata05_%20Bloom%20Filters-CodeKata_files/css" rel="stylesheet" type="text/css">
+    <link href="Kata05_%20Bloom%20Filters-CodeKata_files/css(1)" rel="stylesheet" type="text/css">
+    <script type="text/javascript" async="" src="Kata05_%20Bloom%20Filters-CodeKata_files/embed.js"></script>
+    <script type="text/javascript" async="" src="Kata05_%20Bloom%20Filters-CodeKata_files/widgets.js"></script>
+    <script type="text/javascript" charset="utf-8" async=""
+            src="Kata05_%20Bloom%20Filters-CodeKata_files/button.df1da1fef194d8f8f3fd803a219a8177.js"></script>
+    <link rel="preload" as="style"
+          href="https://c.disquscdn.com/next/embed/styles/lounge.b6e30194f7733461731644bd3f145d25.css">
+    <link rel="preload" as="script"
+          href="https://c.disquscdn.com/next/embed/common.bundle.8edffe1405dcc2d5eb5ee9d96a2866d1.js">
+    <link rel="preload" as="script"
+          href="https://c.disquscdn.com/next/embed/lounge.bundle.342b5faf46965f49ac9c7cedecb8f3e2.js">
+    <link rel="preload" as="script" href="https://disqus.com/next/config.js">
+    <script type="text/javascript" src="chrome-extension://aadgmnobpdmgmigaicncghmmoeflnamj/ng-inspector.js"></script>
+    <script src="Kata05_%20Bloom%20Filters-CodeKata_files/alfie.f51946af45e0b561c60f768335c9eb79.js" async=""
+            charset="UTF-8"></script>
+</head>
+<body>&gt;
+
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-47751724-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+
+<header role="banner">
+    <aside id="kitten"></aside>
+    <hgroup>
+        <h1><a href="http://codekata.com/">CodeKata</a></h1>
+
+        <h2>Because experience<br>is the <em>only</em> teacher</h2>
+
+    </hgroup>
+
+</header>
+<nav role="navigation">
+    <ul class="subscription" data-subscription="rss">
+        <li><a href="http://codekata.com/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+
+    </ul>
+
+    <form action="http://google.com/search" method="get">
+        <fieldset role="search">
+            <input type="hidden" name="q" value="site:codekata.com">
+            <input class="search" type="text" name="q" results="0" placeholder="Search">
+        </fieldset>
+    </form>
+
+    <fieldset class="mobile-nav"><select>
+        <option value="">Navigate…</option>
+        <option value="http://pragdave.me/">» PragDave</option>
+        <option value="http://codekata.com/">» Kata</option>
+        <option value="http://codekata.com/blog/archives">» Archives</option>
+        <option value="http://codekata.com/atom.xml">» RSS</option>
+    </select></fieldset>
+    <ul class="main-navigation">
+        <li><a href="http://pragdave.me/">PragDave</a></li>
+        <li><a href="http://codekata.com/">Kata</a></li>
+        <li><a href="http://codekata.com/blog/archives">Archives</a></li>
+    </ul>
+
+</nav>
+<div id="main">
+    <div id="content">
+        <div>
+            <article class="hentry" role="article">
+
+                <header>
+
+                    <h1 class="entry-title">Kata05: Bloom Filters</h1>
+
+                </header>
+
+
+                <div class="entry-content"><p>There are many circumstances where we need to find out if something is
+                    a member of a set, and many algorithms for doing it. If the set is
+                    small, you can use bitmaps. When they get larger, hashes are a useful
+                    technique. But when the sets get big, we start bumping in to
+                    limitations. Holding 250,000 words in memory for a spell checker might
+                    be too big an overhead if your target environment is a PDA or cell
+                    phone. Keeping a list of web-pages visited might be extravagant when
+                    you get up to tens of millions of pages. Fortunately, there’s a
+                    technique that can help.</p>
+
+                    <!-- more -->
+
+
+                    <p>Bloom filters are a 30-year-old statistical way of testing for
+                        membership in a set. They greatly reduce the amount of storage you
+                        need to represent the set, but at a price: they’ll sometimes report
+                        that something is in the set when it isn’t (but it’ll never do the
+                        opposite; if the filter says that the set doesn’t contain your object,
+                        you know that it doesn’t). And the nice thing is you can control the
+                        accuracy; the more memory you’re prepared to give the algorithm, the
+                        fewer false positives you get. I once wrote a spell checker for a
+                        PDP-11 which stored a dictionary of 80,000 words in 16kbytes, and I
+                        very rarely saw it let though an incorrect word. (Update: I must have
+                        mis-remembered these figures, because they are not in line with the
+                        theory. Unfortunately, I can no longer read the 8” floppies holding
+                        the source, so I can’t get the correct numbers. Let’s just say that I
+                        got a decent sized dictionary, along with the spell checker, all in
+                        under 64k.)</p>
+
+                    <p>Bloom filters are very simple. Take a big array of bits, initially all
+                        zero. Then take the things you want to look up (in our case we’ll use
+                        a dictionary of words). Produce ‘n’ independent hash values for each
+                        word. Each hash is a number which is used to set the corresponding bit
+                        in the array of bits. Sometimes there’ll be clashes, where the bit
+                        will already be set from some other word. This doesn’t matter.</p>
+
+                    <p>To check to see of a new word is already in the dictionary, perform
+                        the same hashes on it that you used to load the bitmap. Then check to
+                        see if each of the bits corresponding to these hash values is set. If
+                        any bit is not set, then you never loaded that word in, and you can
+                        reject it.</p>
+
+                    <p>The Bloom filter reports a false positive when a set of hashes for a
+                        word all end up corresponding to bits that were set previously by
+                        other words. In practice this doesn’t happen too often as long as the
+                        bitmap isn’t too heavily loaded with one-bits (clearly if every bit is
+                        one, then it’ll give a false positive on every lookup). There’s a
+                        discussion of the math in Bloom filters at
+                        <a href="http://codekata.com/kata/kata05-bloom-filters/www.cs.wisc.edu/~cao/papers/summary-cache/node8.html">www.cs.wisc.edu/~cao/papers/summary-cache/node8.html</a>.
+                    </p>
+
+                    <p>So, this kata is fairly straightforward. Implement a Bloom filter
+                        based spell checker. You’ll need some kind of bitmap, some hash
+                        functions, and a simple way of reading in the dictionary and then the
+                        words to check. For the hash function, remember that you can always
+                        use something that generates a fairly long hash (such as MD5) and then
+                        take your smaller hash values by extracting sequences of bits from the
+                        result. On a Unix box you can find a list of words in /usr/dict/words
+                        (or possibly in /usr/share/dict/words). For others, I’ve put a word
+                        list up <a href="http://codekata.com/data/wordlist.txt">here</a>.<sup id="fnref:1"><a
+                                href="http://codekata.com/kata/kata05-bloom-filters/#fn:1" rel="footnote">1</a></sup>
+                    </p>
+
+                    <p>Play with using different numbers of hashes, and with different bitmap sizes.</p>
+
+                    <p>Part two of the exercise is optional. Try generating random
+                        5-character words and feeding them in to your spell checker. For each
+                        word that it says it OK, look it up in the original dictionary. See
+                        how many false positives you get.</p>
+                    <div class="footnotes">
+                        <hr>
+                        <ol>
+                            <li id="fn:1">
+                                <p>This word list comes from SCOWL, which is Copyright 2000-2011 by Kevin Atkinson<a
+                                        href="http://codekata.com/kata/kata05-bloom-filters/#fnref:1"
+                                        rev="footnote">↩</a></p></li>
+                        </ol>
+                    </div>
+
+                </div>
+
+
+                <footer>
+                    <p class="meta">
+
+
+                        <span class="byline author vcard">Posted by <span
+                                class="fn">Dave Thomas (@PragDave)</span></span>
+
+
+                        <time datetime="2013-12-25T16:35:17-07:00" pubdate="" data-updated="true">Dec 25<span>th</span>,
+                            2013
+                        </time>
+
+
+                    </p>
+
+                    <div class="sharing">
+
+                        <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true"
+                                class="twitter-share-button twitter-share-button-rendered twitter-tweet-button"
+                                title="Twitter Tweet Button"
+                                src="Kata05_%20Bloom%20Filters-CodeKata_files/tweet_button.83d5793f6ebbe2046330abda6016ae93.en.html"
+                                style="position: static; visibility: visible; width: 61px; height: 20px;" kwframeid="3"
+                                data-url="http://codekata.com/kata/kata05-bloom-filters/"></iframe>
+
+
+                        <div id="___plusone_0"
+                             style="text-indent: 0px; margin: 0px; padding: 0px; background: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 32px; height: 20px;">
+                            <iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0"
+                                    scrolling="no"
+                                    style="position: static; top: 0px; width: 32px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;"
+                                    tabindex="0" vspace="0" width="100%" id="I0_1517070029872" name="I0_1517070029872"
+                                    src="Kata05_%20Bloom%20Filters-CodeKata_files/fastbutton.html" kwframeid="1"
+                                    data-gapiattached="true" title="G+"></iframe>
+                        </div>
+
+
+                    </div>
+
+
+                    <p class="meta">
+
+                        <a class="basic-alignment left" href="http://codekata.com/kata/kata06-anagrams/"
+                           title="Previous Post: Kata06: Anagrams">« Kata06: Anagrams</a>
+
+
+                        <a class="basic-alignment right" href="http://codekata.com/kata/kata04-data-munging/"
+                           title="Next Post: Kata04: Data Munging">Kata04: Data Munging »</a>
+
+                    </p>
+                </footer>
+            </article>
+
+            <section>
+                <h1>Comments</h1>
+                <div id="disqus_thread" aria-live="polite">
+                    <iframe id="dsq-app7997" name="dsq-app7997" allowtransparency="true" frameborder="0" scrolling="no"
+                            tabindex="0" title="Disqus" width="100%"
+                            src="Kata05_%20Bloom%20Filters-CodeKata_files/saved_resource.html"
+                            style="width: 1px !important; min-width: 100% !important; border: none !important; overflow: hidden !important; height: 1781px !important;"
+                            kwframeid="6" horizontalscrolling="no" verticalscrolling="no"></iframe>
+                </div>
+            </section>
+
+        </div>
+
+        <aside class="sidebar">
+
+            <section>
+                <h1>Recent Posts</h1>
+                <ul id="recent_posts">
+
+                    <li class="post">
+                        <a href="http://codekata.com/kata/codekata-intro/">CodeKata</a>
+                    </li>
+
+                    <li class="post">
+                        <a href="http://codekata.com/kata/codekata-how-it-started/">CodeKata: How It Started</a>
+                    </li>
+
+                    <li class="post">
+                        <a href="http://codekata.com/kata/kata-kumite-koan-and-dreyfus/">Kata, Kumite, Koan, and
+                            Dreyfus</a>
+                    </li>
+
+                    <li class="post">
+                        <a href="http://codekata.com/kata/kata01-supermarket-pricing/">Kata01: Supermarket Pricing</a>
+                    </li>
+
+                    <li class="post">
+                        <a href="http://codekata.com/kata/kata02-karate-chop/">Kata02: Karate Chop</a>
+                    </li>
+
+                    <li class="post">
+                        <a href="http://codekata.com/kata/kata03-how-big-how-fast/">Kata03: How Big? How Fast?</a>
+                    </li>
+
+                    <li class="post">
+                        <a href="http://codekata.com/kata/kata04-data-munging/">Kata04: Data Munging</a>
+                    </li>
+
+                    <li class="post">
+                        <a href="http://codekata.com/kata/kata05-bloom-filters/">Kata05: Bloom Filters</a>
+                    </li>
+
+                    <li class="post">
+                        <a href="http://codekata.com/kata/kata06-anagrams/">Kata06: Anagrams</a>
+                    </li>
+
+                    <li class="post">
+                        <a href="http://codekata.com/kata/kata07-howd-i-do/">Kata07: How'd I Do?</a>
+                    </li>
+
+                    <li class="post">
+                        <a href="http://codekata.com/kata/kata08-conflicting-objectives/">Kata08: Conflicting
+                            Objectives</a>
+                    </li>
+
+                    <li class="post">
+                        <a href="http://codekata.com/kata/kata09-back-to-the-checkout/">Kata09: Back to the Checkout</a>
+                    </li>
+
+                    <li class="post">
+                        <a href="http://codekata.com/kata/kata10-hashes-vs-classes/">Kata10: Hashes vs. Classes</a>
+                    </li>
+
+                    <li class="post">
+                        <a href="http://codekata.com/kata/kata11-sorting-it-out/">Kata11: Sorting It Out</a>
+                    </li>
+
+                    <li class="post">
+                        <a href="http://codekata.com/kata/kata12-best-sellers/">Kata12: Best Sellers</a>
+                    </li>
+
+                    <li class="post">
+                        <a href="http://codekata.com/kata/kata13-counting-code-lines/">Kata13: Counting Code Lines</a>
+                    </li>
+
+                    <li class="post">
+                        <a href="http://codekata.com/kata/kata14-tom-swift-under-the-milkwood/">Kata14: Tom Swift Under
+                            the Milkwood</a>
+                    </li>
+
+                    <li class="post">
+                        <a href="http://codekata.com/kata/kata15-a-diversion/">Kata15: A Diversion</a>
+                    </li>
+
+                    <li class="post">
+                        <a href="http://codekata.com/kata/kata16-business-rules/">Kata16: Business Rules</a>
+                    </li>
+
+                    <li class="post">
+                        <a href="http://codekata.com/kata/kata17-more-business-rules/">Kata17: More Business Rules</a>
+                    </li>
+
+                    <li class="post">
+                        <a href="http://codekata.com/kata/kata18-transitive-dependencies/">Kata18: Transitive
+                            Dependencies</a>
+                    </li>
+
+                    <li class="post">
+                        <a href="http://codekata.com/kata/kata19-word-chains/">Kata19: Word Chains</a>
+                    </li>
+
+                    <li class="post">
+                        <a href="http://codekata.com/kata/kata20-klondike/">Kata20: Klondike</a>
+                    </li>
+
+                    <li class="post">
+                        <a href="http://codekata.com/kata/kata21-simple-lists/">Kata21: Simple Lists</a>
+                    </li>
+
+                </ul>
+            </section>
+
+
+        </aside>
+
+
+        <span class="toggle-sidebar"></span></div>
+</div>
+<footer role="contentinfo"><p>
+    Copyright © 2016 - Dave Thomas (@PragDave) -
+    <span class="credit">Powered by <a href="http://octopress.org/">Octopress</a></span>
+</p>
+
+</footer>
+
+
+<script type="text/javascript">
+    var disqus_shortname = 'pragdave';
+
+
+    // var disqus_developer = 1;
+    var disqus_identifier = 'http://codekata.com/kata/kata05-bloom-filters/';
+    var disqus_url = 'http://codekata.com/kata/kata05-bloom-filters/';
+    var disqus_script = 'embed.js';
+
+    (function () {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+<script type="text/javascript">
+    (function () {
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.async = true;
+        script.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(script, s);
+    })();
+</script>
+
+
+<script type="text/javascript">
+    (function () {
+        var twitterWidgets = document.createElement('script');
+        twitterWidgets.type = 'text/javascript';
+        twitterWidgets.async = true;
+        twitterWidgets.src = '//platform.twitter.com/widgets.js';
+        document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+</script>
+
+
+<iframe scrolling="no" frameborder="0" allowtransparency="true"
+        src="Kata05_%20Bloom%20Filters-CodeKata_files/widget_iframe.83d5793f6ebbe2046330abda6016ae93.html"
+        style="display: none;" kwframeid="2"></iframe>
+<iframe style="display: none;" kwframeid="4"
+        src="Kata05_%20Bloom%20Filters-CodeKata_files/saved_resource(1).html"></iframe>
+<iframe name="oauth2relay709886535" id="oauth2relay709886535"
+        src="Kata05_%20Bloom%20Filters-CodeKata_files/postmessageRelay.html" tabindex="-1" aria-hidden="true"
+        style="width: 1px; height: 1px; position: absolute; top: -100px;" kwframeid="5"></iframe>
+<iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true"
+        style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;"
+        title="Twitter analytics iframe" kwframeid="7"
+        src="Kata05_%20Bloom%20Filters-CodeKata_files/saved_resource(2).html"></iframe>
+</body>
+</html>

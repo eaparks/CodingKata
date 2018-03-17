@@ -1,6 +1,6 @@
 Kata from http://www.codingdojo.org/cgi-bin/index.pl?KataBankOCR
 
-1. write a program that can take this file and parse it into actual account numbers.
+1. write a program that can take a file and parse it into actual account numbers.
     A. open/read file
     B. create collection of acct nums
 
@@ -12,6 +12,6 @@ Kata from http://www.codingdojo.org/cgi-bin/index.pl?KataBankOCR
 
 
 TODO:
-    A. deploy to git
+    A. deploy to git - DONE
     B. gradle
     
