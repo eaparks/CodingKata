@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list id="863aaaaf-d4ef-49df-884f-35a1aad8edcc" name="ignoreCodingKataHtml" comment="just a copy from the source of the kata - for reference" />
     <list default="true" id="f432c4ff-58f1-4589-aaeb-93f4832e35d3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/groovy/com/pox/DictionaryTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pox/Dictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pox/BloomFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pox/BloomFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pox/BloomFilterTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pox/BloomFilterTest.groovy" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -61,8 +63,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edward.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/dictionaries/edward.xml">
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -509,8 +511,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="457" />
-    <option name="y" value="36" />
+    <option name="x" value="143" />
+    <option name="y" value="23" />
     <option name="width" value="1459" />
     <option name="height" value="1044" />
   </component>
@@ -594,88 +596,12 @@
             <path>
               <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
               <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="4.4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="buildOutputCleanup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
               <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="dictionaries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pox" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="groovy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="groovy" type="462c0819:PsiDirectoryNode" />
-              <item name="pox" type="462c0819:PsiDirectoryNode" />
+              <item name="scowl-2017.08.24" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -985,7 +911,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f432c4ff-58f1-4589-aaeb-93f4832e35d3" name="Default" comment="" />
-      <changelist id="863aaaaf-d4ef-49df-884f-35a1aad8edcc" name="ignoreCodingKataHtml" comment="just a copy from the source of the kata - for reference" />
+      <changelist id="" name="ignoreCodingKataHtml" comment="just a copy from the source of the kata - for reference" />
       <created>1517071605858</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -1002,7 +928,7 @@
       <workItem from="1521593371888" duration="920000" />
       <workItem from="1521596064049" duration="4727000" />
       <workItem from="1521909211135" duration="694000" />
-      <workItem from="1524921246729" duration="2432000" />
+      <workItem from="1524921246729" duration="3539000" />
     </task>
     <task id="LOCAL-00001" summary="First, messy, checkin.">
       <created>1521080048424</created>
@@ -1011,7 +937,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521080048424</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Some minor cleanup. Starting dictionary creation.">
+      <created>1524924016783</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1524924016783</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1047,10 +980,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35710000" />
+    <option name="totallyTimeSpent" value="36817000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="457" y="36" width="1459" height="1044" extended-state="0" />
+    <frame x="143" y="23" width="1459" height="1044" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
@@ -1071,9 +1005,9 @@
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.34245077" />
-      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.544784" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.44678608" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25405785" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22230063" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.13252315" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -1124,7 +1058,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="First, messy, checkin." />
-    <option name="LAST_COMMIT_MESSAGE" value="First, messy, checkin." />
+    <MESSAGE value="Some minor cleanup. Starting dictionary creation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Some minor cleanup. Starting dictionary creation." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1144,16 +1079,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" selection-start-line="6" selection-end-line="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/pox/BloomFilterTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1361,6 +1286,12 @@
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dictionaries/edward.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1368,10 +1299,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/dictionaries/edward.xml">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
