@@ -5,6 +5,7 @@ import java.util.BitSet;
 /**
  * Although there is a certain probability of error,
  * Bloom filters never produce false negatives.
+ * If it says the word isn't in the set, it definitely isn't in the set.
  */
 public class BloomFilter {
 
@@ -42,7 +43,8 @@ public class BloomFilter {
     }
 
     /**
-     * This is the String hashCode function from the JDK. For reference.
+     * For reference.
+     * This is the String hashCode function from the JDK.
      */
     public int hashCode() {
 

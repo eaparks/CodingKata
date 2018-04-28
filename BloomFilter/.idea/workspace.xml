@@ -1,62 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list id="863aaaaf-d4ef-49df-884f-35a1aad8edcc" name="ignoreCodingKataHtml" comment="just a copy from the source of the kata - for reference" />
     <list default="true" id="f432c4ff-58f1-4589-aaeb-93f4832e35d3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
-    <list id="863aaaaf-d4ef-49df-884f-35a1aad8edcc" name="ignoreCodingKataHtml" comment="just a copy from the source of the kata - for reference">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/embed.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/fastbutton.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/octopress.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/postmessageRelay.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/saved_resource(1).html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/saved_resource(2).html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/saved_resource.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/tweet_button.83d5793f6ebbe2046330abda6016ae93.en.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/widget_iframe.83d5793f6ebbe2046330abda6016ae93.html" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/137477057-postmessagerelay.js" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/137477057-postmessagerelay.js" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/alfie.f51946af45e0b561c60f768335c9eb79.js" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/alfie.f51946af45e0b561c60f768335c9eb79.js" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/avatar92(1).jpg" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/avatar92(1).jpg" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/avatar92(2).jpg" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/avatar92(2).jpg" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/avatar92(3).jpg" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/avatar92(3).jpg" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/avatar92.jpg" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/avatar92.jpg" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/button.df1da1fef194d8f8f3fd803a219a8177.js" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/button.df1da1fef194d8f8f3fd803a219a8177.js" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/cb=gapi(1).loaded_0" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/cb=gapi(1).loaded_0" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/cb=gapi.loaded_0" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/cb=gapi.loaded_0" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/cb=gapi.loaded_1" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/cb=gapi.loaded_1" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/common.bundle.8edffe1405dcc2d5eb5ee9d96a2866d1.js" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/common.bundle.8edffe1405dcc2d5eb5ee9d96a2866d1.js" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/config.js" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/config.js" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/css" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/css" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/css(1)" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/css(1)" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/discovery.539723090a04fba1b162858415868357.css" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/discovery.539723090a04fba1b162858415868357.css" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/discovery.bundle.daedd146972fc7d8dffd9be34c404865.js" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/discovery.bundle.daedd146972fc7d8dffd9be34c404865.js" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/embed.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/fastbutton.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/ga(1).js" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/ga(1).js" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/ga.js" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/ga.js" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/jquery.min.js" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/jquery.min.js" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/lounge.b6e30194f7733461731644bd3f145d25.css" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/lounge.b6e30194f7733461731644bd3f145d25.css" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/lounge.bundle.342b5faf46965f49ac9c7cedecb8f3e2.js" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/lounge.bundle.342b5faf46965f49ac9c7cedecb8f3e2.js" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/lounge.load.17c489333f6dc675b5689b9ccc2b2bc4.js" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/lounge.load.17c489333f6dc675b5689b9ccc2b2bc4.js" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/modernizr-2.0.js" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/modernizr-2.0.js" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/noavatar92.7b2fde640943965cc88df0cdee365907.png" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/noavatar92.7b2fde640943965cc88df0cdee365907.png" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/noavatar92.png" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/noavatar92.png" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/octopress.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/plusone.js" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/plusone.js" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/postmessageRelay.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/rpc_shindig_random.js" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/rpc_shindig_random.js" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/rs=AGLTcCN4xL0iUYGjc5j9jurCBZ3fX2TNCw" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/rs=AGLTcCN4xL0iUYGjc5j9jurCBZ3fX2TNCw" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/saved_resource(1).html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/saved_resource(2).html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/saved_resource.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/screen.css" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/screen.css" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/tweet_button.83d5793f6ebbe2046330abda6016ae93.en.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/widget_iframe.83d5793f6ebbe2046330abda6016ae93.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata_files/widgets.js" afterPath="$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/widgets.js" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/com/pox/DictionaryTest.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pox/Dictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pox/BloomFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pox/BloomFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pox/BloomFilterTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pox/BloomFilterTest.groovy" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -100,14 +52,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="360">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edward.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/dictionaries/edward.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
@@ -115,8 +71,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="90">
-                <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-                <folding />
+                <caret line="6" selection-start-line="6" selection-end-line="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -133,9 +88,9 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-    <option name="FORCE_PUSH_ALLOWED" value="false" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -330,7 +285,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4551419269000" />
+        <entry key="$PROJECT_DIR$" value="6085559956000" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1115011858" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2083459160" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2437344972" />
@@ -507,9 +463,6 @@
         </entry>
       </map>
     </option>
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
     <option name="projectSyncType">
       <map>
         <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
@@ -525,24 +478,41 @@
         <option value="$PROJECT_DIR$/BloomFilterSpec.groovy" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/com/pox/BloomFilterSpec.groovy" />
-        <option value="$PROJECT_DIR$/src/test/java/com/pox/BloomFilterTest.groovy" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pox/BloomFilter.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/com/pox/BloomFilterTest.groovy" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/pox/Dictionary.java" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/pox/DictionaryTest.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pox/BloomFilter.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="246" />
-    <option name="y" value="23" />
-    <option name="width" value="1622" />
-    <option name="height" value="1030" />
+    <option name="x" value="457" />
+    <option name="y" value="36" />
+    <option name="width" value="1459" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -598,17 +568,8 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
+    <navigator proportions="" version="1">
       <autoscrollFromSource Scope="true" ProjectPane="true" />
-      <sortByType />
-      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -623,12 +584,163 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="4.4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="buildOutputCleanup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="dictionaries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="pox" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="BloomFilter" type="cbb8eebc:String" user="BloomFilter" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="BloomFilter" type="cbb8eebc:String" user="BloomFilter" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="BloomFilter" type="cbb8eebc:String" user="BloomFilter" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="main/java" type="cbb8eebc:String" user="main/java" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="BloomFilter" type="cbb8eebc:String" user="BloomFilter" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="main/java" type="cbb8eebc:String" user="main/java" />
+              <item name="com/pox" type="cbb8eebc:String" user="com/pox" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="BloomFilter" type="cbb8eebc:String" user="BloomFilter" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="test" type="cbb8eebc:String" user="test" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="BloomFilter" type="cbb8eebc:String" user="BloomFilter" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="test" type="cbb8eebc:String" user="test" />
+              <item name="groovy" type="cbb8eebc:String" user="groovy" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="BloomFilter" type="cbb8eebc:String" user="BloomFilter" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="test" type="cbb8eebc:String" user="test" />
+              <item name="groovy" type="cbb8eebc:String" user="groovy" />
+              <item name="com/pox" type="cbb8eebc:String" user="com/pox" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="BloomFilter" type="cbb8eebc:String" user="BloomFilter" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="test" type="cbb8eebc:String" user="test" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="BloomFilter" type="cbb8eebc:String" user="BloomFilter" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="test" type="cbb8eebc:String" user="test" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+              <item name="com/pox" type="cbb8eebc:String" user="com/pox" />
             </path>
           </expand>
           <select />
@@ -650,18 +762,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BloomFilter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BloomFilter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -670,9 +770,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Spock" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.15801887" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/groovy" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -683,6 +784,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="spock.lang.Specification" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -697,26 +801,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BloomFilterTest.word should or should not be in dictionary">
+  <component name="RunManager" selected="JUnit.BloomFilterTest">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
     </configuration>
     <configuration name="BloomFilter [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -734,10 +824,8 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     </configuration>
     <configuration name="BloomFilterSpec.word should or should not be in dictionary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="BloomFilter" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -748,22 +836,20 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
     <configuration name="BloomFilterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <module name="BloomFilter" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pox.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="BloomFilter" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.pox" />
@@ -773,22 +859,20 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
     <configuration name="BloomFilterTest.bitset should be NON-empty after adding a work to dictionary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <module name="BloomFilter" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pox.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="BloomFilter" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.pox" />
@@ -798,22 +882,20 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
     <configuration name="BloomFilterTest.word should or should not be in dictionary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <module name="BloomFilter" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pox.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="BloomFilter" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.pox" />
@@ -823,17 +905,13 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -843,24 +921,13 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -873,17 +940,21 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -891,25 +962,22 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BloomFilterTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BloomFilterSpec.word should or should not be in dictionary" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BloomFilterTest.word should or should not be in dictionary" />
-      <item index="3" class="java.lang.String" itemvalue="Gradle.BloomFilter [build]" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BloomFilterTest.bitset should be NON-empty after adding a work to dictionary" />
+    <list>
+      <item itemvalue="JUnit.BloomFilterTest" />
+      <item itemvalue="JUnit.BloomFilterSpec.word should or should not be in dictionary" />
+      <item itemvalue="JUnit.BloomFilterTest.word should or should not be in dictionary" />
+      <item itemvalue="Gradle.BloomFilter [build]" />
+      <item itemvalue="JUnit.BloomFilterTest.bitset should be NON-empty after adding a work to dictionary" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BloomFilterTest.word should or should not be in dictionary" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BloomFilterTest.bitset should be NON-empty after adding a work to dictionary" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BloomFilterTest" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.BloomFilter [build]" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BloomFilterSpec.word should or should not be in dictionary" />
+      <list>
+        <item itemvalue="JUnit.BloomFilterTest" />
+        <item itemvalue="JUnit.BloomFilterTest.word should or should not be in dictionary" />
+        <item itemvalue="JUnit.BloomFilterTest.bitset should be NON-empty after adding a work to dictionary" />
+        <item itemvalue="Gradle.BloomFilter [build]" />
+        <item itemvalue="JUnit.BloomFilterSpec.word should or should not be in dictionary" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -929,6 +997,12 @@
       <workItem from="1517706778662" duration="112000" />
       <workItem from="1517707118260" duration="4499000" />
       <workItem from="1521077648630" duration="4550000" />
+      <workItem from="1521390213105" duration="191000" />
+      <workItem from="1521390912946" duration="538000" />
+      <workItem from="1521593371888" duration="920000" />
+      <workItem from="1521596064049" duration="4727000" />
+      <workItem from="1521909211135" duration="694000" />
+      <workItem from="1524921246729" duration="2432000" />
     </task>
     <task id="LOCAL-00001" summary="First, messy, checkin.">
       <created>1521080048424</created>
@@ -941,8 +1015,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BloomFilterTest_bitset_should_be_NON-empty_after_adding_a_work_to_dictionary - 2018.02.04 at 09h 53m 13s.xml">
-      <configuration name="BloomFilterTest.bitset should be NON-empty after adding a work to dictionary" configurationId="JUnit" />
+    <history-entry file="BloomFilterTest - 2018.03.20 at 18h 35m 25s.xml">
+      <configuration name="BloomFilterTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BloomFilterTest_bitset_should_be_NON-empty_after_adding_a_work_to_dictionary - 2018.02.04 at 10h 00m 16s.xml">
       <configuration name="BloomFilterTest.bitset should be NON-empty after adding a work to dictionary" configurationId="JUnit" />
@@ -973,41 +1047,42 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26208000" />
+    <option name="totallyTimeSpent" value="35710000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="246" y="23" width="1622" height="1030" extended-state="0" />
+    <frame x="457" y="36" width="1459" height="1044" extended-state="0" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36898395" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.54545456" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28164557" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32207206" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13252315" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24968314" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46846846" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="right" id="Mongo Explorer" order="3" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Build" order="9" weight="0.32139093" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Structure" order="12" side_tool="true" weight="0.24968314" />
+      <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.46846846" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32882884" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.34245077" />
+      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.544784" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25405785" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.13252315" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1056,94 +1131,130 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pox/BloomFilter.java</url>
-          <line>38</line>
-          <properties />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/pox/BloomFilter.java</url>
-          <line>76</line>
+          <line>78</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="2" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/pox/BloomFilterTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pox/BloomFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/src.zip!/java/util/BitSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13425">
-          <caret line="895" column="15" lean-forward="false" selection-start-line="895" selection-start-column="15" selection-end-line="895" selection-end-column="15" />
-          <folding />
+          <caret line="895" column="15" selection-start-line="895" selection-start-column="15" selection-end-line="895" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1650">
-          <caret line="110" column="12" lean-forward="false" selection-start-line="110" selection-start-column="7" selection-end-line="110" selection-end-column="12" />
-          <folding />
+          <caret line="110" column="12" selection-start-line="110" selection-start-column="7" selection-end-line="110" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/pox/BloomFilterTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pox/BloomFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
-          <caret line="110" column="12" lean-forward="false" selection-start-line="110" selection-start-column="7" selection-end-line="110" selection-end-column="12" />
-          <folding />
+          <caret line="110" column="12" selection-start-line="110" selection-start-column="7" selection-end-line="110" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pox/BloomFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1650">
-          <caret line="110" column="12" lean-forward="false" selection-start-line="110" selection-start-column="7" selection-end-line="110" selection-end-column="12" />
-          <folding />
+          <caret line="110" column="12" selection-start-line="110" selection-start-column="7" selection-end-line="110" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pox/BloomFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
-          <caret line="38" column="26" lean-forward="false" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-          <folding />
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1151,49 +1262,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22080">
           <caret line="1472" column="21" lean-forward="true" selection-start-line="1464" selection-start-column="4" selection-end-line="1475" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/pox/BloomFilterTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pox/BloomFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/pox/BloomFilterTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Library.java" />
-    <entry file="file://$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata.html" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/rt.jar!/apple/laf/JRSUIConstants.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1205,115 +1292,87 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Library.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/groovy/BloomFilterTest.groovy" />
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
-          <caret line="110" column="12" lean-forward="false" selection-start-line="110" selection-start-column="7" selection-end-line="110" selection-end-column="12" />
-          <folding />
+          <caret line="110" column="12" selection-start-line="110" selection-start-column="7" selection-end-line="110" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/src.zip!/java/util/BitSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12855">
-          <caret line="895" column="15" lean-forward="false" selection-start-line="895" selection-start-column="15" selection-end-line="895" selection-end-column="15" />
-          <folding />
+          <caret line="895" column="15" selection-start-line="895" selection-start-column="15" selection-end-line="895" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/dictionaries/edward.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pox/BloomFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/pox/BloomFilterTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="70" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/avatar92(2).jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/avatar92(3).jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/avatar92.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/avatar92(1).jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle" />
+    <entry file="file://$PROJECT_DIR$/Kata05_ Bloom Filters - CodeKata.html" />
+    <entry file="file://$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/avatar92(2).jpg" />
+    <entry file="file://$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/avatar92(3).jpg" />
+    <entry file="file://$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/avatar92.jpg" />
+    <entry file="file://$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/avatar92(1).jpg" />
+    <entry file="file://$PROJECT_DIR$/Kata05_BloomFilters-CodeKata_files/css" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="90">
-            <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-            <folding />
+            <caret line="6" selection-start-line="6" selection-end-line="6" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/pox/BloomFilterTest.groovy">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/pox/Dictionary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/pox/DictionaryTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pox/BloomFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dictionaries/edward.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

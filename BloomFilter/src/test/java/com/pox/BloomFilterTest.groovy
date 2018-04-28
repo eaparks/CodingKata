@@ -22,7 +22,7 @@ class BloomFilterTest extends Specification {
         "doog"  | false
     }
 
-    def "bitset should be NON-empty after adding a work to dictionary"() {
+    def "bitset should be NON-empty after adding a word to dictionary"() {
 
         given:
         def bloomFilter = new BloomFilter()
