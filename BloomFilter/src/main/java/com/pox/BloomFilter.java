@@ -4,7 +4,7 @@ import java.util.BitSet;
 
 /**
  * Although there is a certain probability of error,
- * Bloom filters never produce false negatives.
+ * bloom filters never produce false negatives.
  * If it says the word isn't in the set, it definitely isn't in the set.
  */
 public class BloomFilter {
@@ -13,8 +13,8 @@ public class BloomFilter {
     private int hash;
     private char[] value = {'a', 'b', 'c'};
 
-    private int bitSetSize = 1000 * 1000;
-    private BitSet bitSet = new BitSet(bitSetSize);
+    private static final int BITSET_SIZE = 1000 * 1000;
+    private BitSet bitSet = new BitSet(BITSET_SIZE);
 
     int hashCountPerWord = 3;
 
@@ -69,7 +69,7 @@ public class BloomFilter {
                 h = seed * h + charsInString[i];
             }
         }
-        return h;
+        return Math.abs(h);
     }
 
     public int numberOfBitsSet() {
