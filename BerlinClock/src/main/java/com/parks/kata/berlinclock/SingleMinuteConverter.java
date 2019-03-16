@@ -15,14 +15,30 @@ public class SingleMinuteConverter {
      */
     String minutesInBerlinTime(String digitalTime) {
 
-        String digitalMinutes = digitalTime.substring(digitalTime.lastIndexOf(':'));
+        String digitalMinutes = digitalTime.substring(digitalTime.lastIndexOf(':') - 2, digitalTime.lastIndexOf(':'));
 
         String berlinSingleMinutes = null;
 
-        if(digitalMinutes.endsWith("0")) {
+        if(isEvenlyDivisibleByFive(digitalMinutes)) {
             berlinSingleMinutes = "OOOO";
+        } else {
+            int minutes = Integer.parseInt(digitalMinutes);
+            if(minutes % 5 == 1) {
+                berlinSingleMinutes = "YOOO";
+            } else if(minutes % 5 == 2) {
+                berlinSingleMinutes = "YYOO";
+            } else if(minutes % 5 == 3) {
+                berlinSingleMinutes = "YYYO";
+            } else if(minutes % 5 == 4) {
+                berlinSingleMinutes = "YYYY";
+            }
         }
 
         return berlinSingleMinutes;
+    }
+
+    public boolean isEvenlyDivisibleByFive(String minutesInDigitalFormat) {
+
+        return minutesInDigitalFormat.endsWith("0") || minutesInDigitalFormat.endsWith("5");
     }
 }
