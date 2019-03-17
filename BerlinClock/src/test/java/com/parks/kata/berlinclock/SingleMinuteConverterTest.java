@@ -3,7 +3,7 @@ package com.parks.kata.berlinclock;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class SingleMinuteConverterTest {
 
@@ -32,7 +32,6 @@ public class SingleMinuteConverterTest {
         assertEquals("YYOO", unit.minutesInBerlinTime("12:32:59"));
         assertEquals("YYYY", unit.minutesInBerlinTime("12:34:00"));
         assertEquals("OOOO", unit.minutesInBerlinTime("12:35:00"));
-
     }
 
     @Test
@@ -43,9 +42,21 @@ public class SingleMinuteConverterTest {
             assert (unit.isEvenlyDivisibleByFive(yes1));
         }
 
-        String[] not = {"33", "02"};
-        for (String s : not) {
-            assert (!unit.isEvenlyDivisibleByFive(s));
+        String[] notDivisible_1 = {"33", "02"};
+        for (String s : notDivisible_1) {
+            assertFalse ("This should NOT be evenly divisible by five: " + s, unit.isEvenlyDivisibleByFive(s));
         }
+
+        String[] notDivisible_2 = {null, ""};
+        for (String s : notDivisible_2) {
+            try {
+                unit.isEvenlyDivisibleByFive(s);
+                fail ("Bad input <" + s + "> should have thrown RuntimeException.");
+            } catch (RuntimeException re) {
+                // empty on purpose
+            }
+
+        }
+
     }
 }

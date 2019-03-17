@@ -1,6 +1,10 @@
 package com.parks.kata.berlinclock;
 
+import org.apache.commons.lang3.StringUtils;
+
 public class SingleMinuteConverter {
+
+    static final String[] BERLIN_MINUTES = {"OOOO", "YOOO", "YYOO", "YYYO", "YYYY"};
 
     /**
      * The final two rows represent the minutes.
@@ -15,29 +19,24 @@ public class SingleMinuteConverter {
      */
     String minutesInBerlinTime(String digitalTime) {
 
-        String digitalMinutes = digitalTime.substring(digitalTime.lastIndexOf(':') - 2, digitalTime.lastIndexOf(':'));
+        String digitalMinutes = StringUtils.substringBetween(digitalTime, ":");
 
-        String berlinSingleMinutes = null;
+        String berlinSingleMinutes;
 
         if(isEvenlyDivisibleByFive(digitalMinutes)) {
-            berlinSingleMinutes = "OOOO";
+            berlinSingleMinutes = BERLIN_MINUTES[0];
         } else {
-            int minutes = Integer.parseInt(digitalMinutes);
-            if(minutes % 5 == 1) {
-                berlinSingleMinutes = "YOOO";
-            } else if(minutes % 5 == 2) {
-                berlinSingleMinutes = "YYOO";
-            } else if(minutes % 5 == 3) {
-                berlinSingleMinutes = "YYYO";
-            } else if(minutes % 5 == 4) {
-                berlinSingleMinutes = "YYYY";
-            }
+            berlinSingleMinutes = BERLIN_MINUTES[Integer.parseInt(digitalMinutes) % 5];
         }
 
         return berlinSingleMinutes;
     }
 
-    public boolean isEvenlyDivisibleByFive(String minutesInDigitalFormat) {
+    boolean isEvenlyDivisibleByFive(String minutesInDigitalFormat) {
+
+        if(StringUtils.isBlank(minutesInDigitalFormat)) {
+            throw new RuntimeException("Digital minutes cannot be blank.");
+        }
 
         return minutesInDigitalFormat.endsWith("0") || minutesInDigitalFormat.endsWith("5");
     }
