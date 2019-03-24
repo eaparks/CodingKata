@@ -5,12 +5,13 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class SingleMinuteConverterTest {
+public class MinuteConverterTest {
 
-    SingleMinuteConverter unit;
+    MinuteConverter unit;
 
     /**
-     * Test cases:
+     * Test cases for single minute row:
+     *
      * Time	     Row
      * 00:00:00	OOOO
      * 23:59:59	YYYY
@@ -21,7 +22,7 @@ public class SingleMinuteConverterTest {
 
     @Before
     public void setup() {
-        unit = new SingleMinuteConverter();
+        unit = new MinuteConverter();
     }
 
     @Test
@@ -58,5 +59,26 @@ public class SingleMinuteConverterTest {
 
         }
 
+    }
+
+    /**
+     * Test cases for five-minute row:
+     *
+     * Time	        Row
+     * 00:00:00	OOOOOOOOOOO
+     * 23:59:59	YYRYYRYYRYY
+     * 12:04:00	OOOOOOOOOOO
+     * 12:23:00	YYRYOOOOOOO
+     * 12:35:00	YYRYYRYOOOO
+     *
+     */
+    @Test
+    public void testFiveMinuteRow() {
+
+        assertEquals("OOOOOOOOOOO", unit.fiveMinuteRowInBerlinTime("00:00:00"));
+        assertEquals("YYRYYRYYRYY", unit.fiveMinuteRowInBerlinTime("23:59:59"));
+        assertEquals("OOOOOOOOOOO", unit.fiveMinuteRowInBerlinTime("12:04:00"));
+        assertEquals("YYRYOOOOOOO", unit.fiveMinuteRowInBerlinTime("12:23:00"));
+        assertEquals("YYRYYRYOOOO", unit.fiveMinuteRowInBerlinTime("12:35:00"));
     }
 }
